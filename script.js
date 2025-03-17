@@ -9,3 +9,11 @@ function addSkill() {
         input.value = ""; // Xóa input sau khi thêm
     }
 }
+
+function deleteSkill(){
+    let list= document.getElementById("skill-list")
+    let items=list.getElementsByTagName("li")
+    if(items){
+        list.removeChild(items[items.length-1])
+    }
+}
