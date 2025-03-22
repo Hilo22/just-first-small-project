@@ -2,17 +2,16 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #3f24da;
+    background: linear-gradient(to bottom, purple,blue)
 }
 
 header {
-    background-color: #5916de;
+    background-color: rgb(219, 194, 194);
     margin: 0px;
     color: rgb(61, 194, 68);
     text-align: center;
     padding: 1rem;
     list-style: none;
-    padding: 0;
 }
 
 nav ul {
@@ -45,7 +44,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #39dd18;
+    color: #f01645;
 }
 @keyframes fadeIn {
     from { opacity: 0; }
